@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B82361114B9C6F70009DECA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B82361014B9C6F70009DECA /* UIKit.framework */; };
+		9B82361314B9C6F70009DECA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B82361214B9C6F70009DECA /* Foundation.framework */; };
+		9B82361514B9C6F70009DECA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B82361414B9C6F70009DECA /* CoreGraphics.framework */; };
+		9B82361B14B9C6F70009DECA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B82361914B9C6F70009DECA /* InfoPlist.strings */; };
+		9B82361D14B9C6F70009DECA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B82361C14B9C6F70009DECA /* main.m */; };
+		9B82362114B9C6F70009DECA /* CollectionCalendarAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B82362014B9C6F70009DECA /* CollectionCalendarAppDelegate.m */; };
+		9B82362414B9C6F70009DECA /* CollectionCalendarFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B82362314B9C6F70009DECA /* CollectionCalendarFirstViewController.m */; };
+		9B82362614B9C6F70009DECA /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B82362514B9C6F70009DECA /* first.png */; };
+		9B82362814B9C6F70009DECA /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B82362714B9C6F70009DECA /* first@2x.png */; };
+		9B82362B14B9C6F70009DECA /* CollectionCalendarSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B82362A14B9C6F70009DECA /* CollectionCalendarSecondViewController.m */; };
+		9B82362D14B9C6F70009DECA /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B82362C14B9C6F70009DECA /* second.png */; };
+		9B82362F14B9C6F70009DECA /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B82362E14B9C6F70009DECA /* second@2x.png */; };
+		9B82363214B9C6F70009DECA /* CollectionCalendarFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B82363014B9C6F70009DECA /* CollectionCalendarFirstViewController.xib */; };
+		9B82363514B9C6F70009DECA /* CollectionCalendarSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B82363314B9C6F70009DECA /* CollectionCalendarSecondViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9B82360C14B9C6F70009DECA /* CollectionCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B82361014B9C6F70009DECA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9B82361214B9C6F70009DECA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9B82361414B9C6F70009DECA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9B82361814B9C6F70009DECA /* CollectionCalendar-Info.plist */ = {isa = PBXFileReference; path = "CollectionCalendar-Info.plist"; sourceTree = "<group>"; };
+		9B82361A14B9C6F70009DECA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9B82361C14B9C6F70009DECA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9B82361E14B9C6F70009DECA /* CollectionCalendar-Prefix.pch */ = {isa = PBXFileReference; path = "CollectionCalendar-Prefix.pch"; sourceTree = "<group>"; };
+		9B82361F14B9C6F70009DECA /* CollectionCalendarAppDelegate.h */ = {isa = PBXFileReference; path = CollectionCalendarAppDelegate.h; sourceTree = "<group>"; };
+		9B82362014B9C6F70009DECA /* CollectionCalendarAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionCalendarAppDelegate.m; sourceTree = "<group>"; };
+		9B82362214B9C6F70009DECA /* CollectionCalendarFirstViewController.h */ = {isa = PBXFileReference; path = CollectionCalendarFirstViewController.h; sourceTree = "<group>"; };
+		9B82362314B9C6F70009DECA /* CollectionCalendarFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionCalendarFirstViewController.m; sourceTree = "<group>"; };
+		9B82362514B9C6F70009DECA /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		9B82362714B9C6F70009DECA /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		9B82362914B9C6F70009DECA /* CollectionCalendarSecondViewController.h */ = {isa = PBXFileReference; path = CollectionCalendarSecondViewController.h; sourceTree = "<group>"; };
+		9B82362A14B9C6F70009DECA /* CollectionCalendarSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionCalendarSecondViewController.m; sourceTree = "<group>"; };
+		9B82362C14B9C6F70009DECA /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		9B82362E14B9C6F70009DECA /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		9B82363114B9C6F70009DECA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CollectionCalendarFirstViewController.xib; sourceTree = "<group>"; };
+		9B82363414B9C6F70009DECA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CollectionCalendarSecondViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B82360914B9C6F70009DECA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B82361114B9C6F70009DECA /* UIKit.framework in Frameworks */,
+				9B82361314B9C6F70009DECA /* Foundation.framework in Frameworks */,
+				9B82361514B9C6F70009DECA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B82360114B9C6F60009DECA = {
+			isa = PBXGroup;
+			children = (
+				9B82361614B9C6F70009DECA /* CollectionCalendar */,
+				9B82360F14B9C6F70009DECA /* Frameworks */,
+				9B82360D14B9C6F70009DECA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B82360D14B9C6F70009DECA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B82360C14B9C6F70009DECA /* CollectionCalendar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B82360F14B9C6F70009DECA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B82361014B9C6F70009DECA /* UIKit.framework */,
+				9B82361214B9C6F70009DECA /* Foundation.framework */,
+				9B82361414B9C6F70009DECA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B82361614B9C6F70009DECA /* CollectionCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				9B82361F14B9C6F70009DECA /* CollectionCalendarAppDelegate.h */,
+				9B82362014B9C6F70009DECA /* CollectionCalendarAppDelegate.m */,
+				9B82362214B9C6F70009DECA /* CollectionCalendarFirstViewController.h */,
+				9B82362314B9C6F70009DECA /* CollectionCalendarFirstViewController.m */,
+				9B82362514B9C6F70009DECA /* first.png */,
+				9B82362714B9C6F70009DECA /* first@2x.png */,
+				9B82362914B9C6F70009DECA /* CollectionCalendarSecondViewController.h */,
+				9B82362A14B9C6F70009DECA /* CollectionCalendarSecondViewController.m */,
+				9B82362C14B9C6F70009DECA /* second.png */,
+				9B82362E14B9C6F70009DECA /* second@2x.png */,
+				9B82363014B9C6F70009DECA /* CollectionCalendarFirstViewController.xib */,
+				9B82363314B9C6F70009DECA /* CollectionCalendarSecondViewController.xib */,
+				9B82361714B9C6F70009DECA /* Supporting Files */,
+			);
+			path = CollectionCalendar;
+			sourceTree = "<group>";
+		};
+		9B82361714B9C6F70009DECA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B82361814B9C6F70009DECA /* CollectionCalendar-Info.plist */,
+				9B82361914B9C6F70009DECA /* InfoPlist.strings */,
+				9B82361C14B9C6F70009DECA /* main.m */,
+				9B82361E14B9C6F70009DECA /* CollectionCalendar-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B82360B14B9C6F70009DECA /* CollectionCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B82363814B9C6F70009DECA /* Build configuration list for PBXNativeTarget "CollectionCalendar" */;
+			buildPhases = (
+				9B82360814B9C6F70009DECA /* Sources */,
+				9B82360914B9C6F70009DECA /* Frameworks */,
+				9B82360A14B9C6F70009DECA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CollectionCalendar;
+			productName = CollectionCalendar;
+			productReference = 9B82360C14B9C6F70009DECA /* CollectionCalendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B82360314B9C6F60009DECA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "アルゴ";
+			};
+			buildConfigurationList = 9B82360614B9C6F60009DECA /* Build configuration list for PBXProject "CollectionCalendar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9B82360114B9C6F60009DECA;
+			productRefGroup = 9B82360D14B9C6F70009DECA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B82360B14B9C6F70009DECA /* CollectionCalendar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B82360A14B9C6F70009DECA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B82361B14B9C6F70009DECA /* InfoPlist.strings in Resources */,
+				9B82362614B9C6F70009DECA /* first.png in Resources */,
+				9B82362814B9C6F70009DECA /* first@2x.png in Resources */,
+				9B82362D14B9C6F70009DECA /* second.png in Resources */,
+				9B82362F14B9C6F70009DECA /* second@2x.png in Resources */,
+				9B82363214B9C6F70009DECA /* CollectionCalendarFirstViewController.xib in Resources */,
+				9B82363514B9C6F70009DECA /* CollectionCalendarSecondViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B82360814B9C6F70009DECA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B82361D14B9C6F70009DECA /* main.m in Sources */,
+				9B82362114B9C6F70009DECA /* CollectionCalendarAppDelegate.m in Sources */,
+				9B82362414B9C6F70009DECA /* CollectionCalendarFirstViewController.m in Sources */,
+				9B82362B14B9C6F70009DECA /* CollectionCalendarSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9B82361914B9C6F70009DECA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B82361A14B9C6F70009DECA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9B82363014B9C6F70009DECA /* CollectionCalendarFirstViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B82363114B9C6F70009DECA /* en */,
+			);
+			name = CollectionCalendarFirstViewController.xib;
+			sourceTree = "<group>";
+		};
+		9B82363314B9C6F70009DECA /* CollectionCalendarSecondViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B82363414B9C6F70009DECA /* en */,
+			);
+			name = CollectionCalendarSecondViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B82363614B9C6F70009DECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9B82363714B9C6F70009DECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B82363914B9C6F70009DECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CollectionCalendar/CollectionCalendar-Prefix.pch";
+				INFOPLIST_FILE = "CollectionCalendar/CollectionCalendar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9B82363A14B9C6F70009DECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CollectionCalendar/CollectionCalendar-Prefix.pch";
+				INFOPLIST_FILE = "CollectionCalendar/CollectionCalendar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B82360614B9C6F60009DECA /* Build configuration list for PBXProject "CollectionCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B82363614B9C6F70009DECA /* Debug */,
+				9B82363714B9C6F70009DECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B82363814B9C6F70009DECA /* Build configuration list for PBXNativeTarget "CollectionCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B82363914B9C6F70009DECA /* Debug */,
+				9B82363A14B9C6F70009DECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B82360314B9C6F60009DECA /* Project object */;
+}
