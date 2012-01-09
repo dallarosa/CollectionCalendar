@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+@interface CollectionCalendarFirstViewController : UIViewController<UITableViewDelegate, UITableViewDataSource>
+{
+    NSArray *stringList;
+    NSArray *urlList;
+}
 
-@interface CollectionCalendarFirstViewController : UIViewController
-
+@property(nonatomic,retain)NSArray *stringList;
+@property(nonatomic,retain)NSArray *urlList;
 @end
