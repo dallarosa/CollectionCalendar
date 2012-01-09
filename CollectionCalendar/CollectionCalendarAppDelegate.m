@@ -12,6 +12,8 @@
 
 #import "CollectionCalendarSecondViewController.h"
 
+#import "CollectionCalendarThirdViewController.h"
+
 @implementation CollectionCalendarAppDelegate
 
 @synthesize window = _window;
@@ -23,8 +25,9 @@
     // Override point for customization after application launch.
     UIViewController *viewController1 = [[CollectionCalendarFirstViewController alloc] initWithNibName:@"CollectionCalendarFirstViewController" bundle:nil];
     UIViewController *viewController2 = [[CollectionCalendarSecondViewController alloc] initWithNibName:@"CollectionCalendarSecondViewController" bundle:nil];
+    UIViewController *viewController3 = [[CollectionCalendarThirdViewController alloc] initWithNibName:@"CollectionCalendarThirdViewController" bundle:nil];
     self.tabBarController = [[UITabBarController alloc] init];
-    self.tabBarController.viewControllers = [NSArray arrayWithObjects:viewController1, viewController2, nil];
+    self.tabBarController.viewControllers = [NSArray arrayWithObjects:viewController1, viewController2, viewController3, nil];
     self.window.rootViewController = self.tabBarController;
     [self.window makeKeyAndVisible];
     return YES;
