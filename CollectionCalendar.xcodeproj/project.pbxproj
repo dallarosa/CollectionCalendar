@@ -11,6 +11,7 @@
 		84C9A55314BA707000ED1815 /* CollectionCalendarThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84C9A55114BA706F00ED1815 /* CollectionCalendarThirdViewController.xib */; };
 		84C9A55614BA73C600ED1815 /* third@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C9A55414BA73C600ED1815 /* third@2x.png */; };
 		84C9A55714BA73C600ED1815 /* third.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C9A55514BA73C600ED1815 /* third.png */; };
+		84DE757914BAD0280085D366 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DE757714BAD0280085D366 /* Item.m */; };
 		9B82361114B9C6F70009DECA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B82361014B9C6F70009DECA /* UIKit.framework */; };
 		9B82361314B9C6F70009DECA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B82361214B9C6F70009DECA /* Foundation.framework */; };
 		9B82361514B9C6F70009DECA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B82361414B9C6F70009DECA /* CoreGraphics.framework */; };
@@ -33,6 +34,8 @@
 		84C9A55114BA706F00ED1815 /* CollectionCalendarThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionCalendarThirdViewController.xib; sourceTree = "<group>"; };
 		84C9A55414BA73C600ED1815 /* third@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "third@2x.png"; sourceTree = "<group>"; };
 		84C9A55514BA73C600ED1815 /* third.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = third.png; sourceTree = "<group>"; };
+		84DE757714BAD0280085D366 /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		84DE757814BAD0280085D366 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
 		9B82360C14B9C6F70009DECA /* CollectionCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B82361014B9C6F70009DECA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9B82361214B9C6F70009DECA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -99,6 +102,8 @@
 		9B82361614B9C6F70009DECA /* CollectionCalendar */ = {
 			isa = PBXGroup;
 			children = (
+				84DE757714BAD0280085D366 /* Item.m */,
+				84DE757814BAD0280085D366 /* Item.h */,
 				84C9A55414BA73C600ED1815 /* third@2x.png */,
 				84C9A55514BA73C600ED1815 /* third.png */,
 				9B82361F14B9C6F70009DECA /* CollectionCalendarAppDelegate.h */,
@@ -208,6 +213,7 @@
 				9B82362414B9C6F70009DECA /* CollectionCalendarFirstViewController.m in Sources */,
 				9B82362B14B9C6F70009DECA /* CollectionCalendarSecondViewController.m in Sources */,
 				84C9A55214BA707000ED1815 /* CollectionCalendarThirdViewController.m in Sources */,
+				84DE757914BAD0280085D366 /* Item.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
