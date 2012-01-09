@@ -25,11 +25,7 @@
     {
         cell=[[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
     }
-    Item *item = [self.itemList objectAtIndex:[indexPath row]];
-    if (item != nil) {
-        cell.textLabel.text = item.title;        
-    }
-
+    cell.textLabel.text = [self.itemList objectAtIndex:[indexPath row]];
     if([indexPath row] == 0)
     {
         cell.textLabel.textAlignment = UITextAlignmentCenter;
@@ -42,10 +38,8 @@
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     Item *item = [itemList objectAtIndex:[indexPath row]];
-//    NSString *url = [item objectAtIndex:2];
-    if (item != nil) {
-        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:item.url]];
-    }
+   // NSString *url = [item objectAtIndex:2];
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:url]];
 }
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -70,7 +64,7 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    self.itemList = [[NSArray alloc] initWithObjects:[[Item alloc]initWithObjects:@"雨の日のアイリス",@"2012/01/24",@"http://www.raitonoveru.jp/rano/rano/amenohi.html", nil],[[Item alloc]initWithObjects:@"アルスラーン戦記",@"2012/01/26",@"http://www.raitonoveru.jp/rano/rano/01.html#140", nil],[[Item alloc]initWithObjects:@"雨の日のアイリス",@"2012/01/28",@"http://www.raitonoveru.jp/rano/rano/fannta.html#235", nil],[[Item alloc]initWithObjects:@"アリソン",@"2012/01/30",@"http://www.raitonoveru.jp/rano/rano/fannta01.html#710", nil],[[Item alloc]initWithObjects:@"偽りのドラグーン",@"2012/01/30",@"http://www.raitonoveru.jp/rano/rano/kiri.html#64", nil],[[Item alloc]initWithObjects:@"キーリ",@"2012/02/01",@"http://www.raitonoveru.jp/rano/rano/fannta01.html#710", nil],[[Item alloc]initWithObjects:@"狼と香辛料",@"2012/02/04",@"http://www.raitonoveru.jp/rano/rano/ooka.html#209", nil],[[Item alloc]initWithObjects:@"オペラ・エテルニタ",@"2012/02/06",@"http://www.raitonoveru.jp/rano/rano/opera.html#311", nil], nil];
+    self.itemList = [[NSArray alloc] initWithObjects:[[NSArray alloc]initWithObjects:@"雨の日のアイリス",@"2012/01/24",@"http://www.raitonoveru.jp/rano/rano/amenohi.html", nil],[[NSArray alloc]initWithObjects:@"アルスラーン戦記",@"2012/01/26",@"http://www.raitonoveru.jp/rano/rano/01.html#140", nil],[[NSArray alloc]initWithObjects:@"雨の日のアイリス",@"2012/01/28",@"http://www.raitonoveru.jp/rano/rano/fannta.html#235", nil],[[NSArray alloc]initWithObjects:@"アリソン",@"2012/01/30",@"http://www.raitonoveru.jp/rano/rano/fannta01.html#710", nil],[[NSArray alloc]initWithObjects:@"偽りのドラグーン",@"2012/01/30",@"http://www.raitonoveru.jp/rano/rano/kiri.html#64", nil],[[NSArray alloc]initWithObjects:@"キーリ",@"2012/02/01",@"http://www.raitonoveru.jp/rano/rano/fannta01.html#710", nil],[[NSArray alloc]initWithObjects:@"狼と香辛料",@"2012/02/04",@"http://www.raitonoveru.jp/rano/rano/ooka.html#209", nil],[[NSArray alloc]initWithObjects:@"オペラ・エテルニタ",@"2012/02/06",@"http://www.raitonoveru.jp/rano/rano/opera.html#311", nil] nil];
 
 }
 
